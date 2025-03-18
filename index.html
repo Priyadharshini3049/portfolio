@@ -57,9 +57,14 @@
                     <img src="https://cdn.iconscout.com/icon/free/png-256/free-java-logo-icon-download-in-svg-png-gif-file-formats--wordmark-programming-language-pack-logos-icons-1174953.png?f=webp">
                 </div>
                 <div class="skill-card">
+                    <h3 class="skill-title">My SQL</h3>
+                    <img src="https://img.icons8.com/?size=512&id=9nLaR5KFGjN0&format=png" >
+                </div>
+                <div class="skill-card">
                     <h3 class="skill-title">JavaScript</h3>
                     <img src="https://static.vecteezy.com/system/resources/previews/027/127/463/non_2x/javascript-logo-javascript-icon-transparent-free-png.png">
                 </div>
+                
                 <div class="skill-card">
                     <h3 class="skill-title">React</h3>
                     <img src="https://static-00.iconduck.com/assets.00/react-original-wordmark-icon-840x1024-vhmauxp6.png">
@@ -73,10 +78,7 @@
                     <h3 class="skill-title">Tailwind CSS</h3>
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2560px-Tailwind_CSS_Logo.svg.png" style="height: 150px; width: 150px">
                 </div>
-                <div class="skill-card">
-                    <h3 class="skill-title">My SQL</h3>
-                    <img src="https://img.icons8.com/?size=512&id=9nLaR5KFGjN0&format=png" >
-                </div>
+                
             </div>
         </div>
     </section>
@@ -87,6 +89,7 @@
             </div>
             <div class="buttons-container">
                 <button class="button1 active" onclick="allProjects()">All</button>
+                <button class="button1" onclick="testing()">Testing</button>
                 <button class="button1" onclick="java()">Java</button>
                 <button class="button1" onclick="js()">JavaScript</button>
                 <button class="button1" onclick="html()">HTML/CSS</button>
@@ -94,6 +97,12 @@
             </div>
 
             <div class="projects-container" id="project">
+                <div class="project-card">
+                    <h3 class="project-title">Founded Bugs</h3>
+                    <a href="https://workdrive.zohoexternal.com/external/bcc9d871e9c1486ed5126dd2f0b940531e158b93affb26f3ad160389422a7aa4?layout=list" target="_blank">
+                        <img src="./images/Bug.jpg" class="project-img">
+                    </a>
+                </div>
                 <div class="project-card">
                     <h3 class="project-title">DoublyLinkedList</h3>
                     <a href="https://github.com/Priyadharshini3049/DoublyLinkedList" target="_blank">
@@ -140,14 +149,14 @@
 
                 <div class="project-card">
                     <h3 class="project-title">Word Game</h3>
-                    <a href="https://scratch.mit.edu/projects/1041085798/" target="_blank">
+                    <a href="https://scratch.mit.edu/projects/1041085798/fullscreen/" target="_blank">
                         <img src="scratch.png" class="project-img">
                     </a>
                 </div>
 
                 <div class="project-card">
                     <h3 class="project-title">ShootingGame</h3>
-                    <a href="https://scratch.mit.edu/projects/1041085798/" target="_blank">
+                    <a href="https://scratch.mit.edu/projects/1040342350/fullscreen/" target="_blank">
                         <img src="./images/ShootingGame.png" class="project-img">
                     </a>
                 </div>
@@ -159,7 +168,7 @@
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">Contact</h2>
-                <div style="display:flex; align-items: center; flex-direction:column; text-align: left">
+                <div style="display:flex; align-items: center; flex-direction:column; text-align: left" id="contact">
                     <h3 style="margin-bottom: 0.5rem">ZSTTK-395/24</h3>
                     <h3 style="margin-left: 6rem;margin-bottom: 0.5rem">priya.as@zohocorp.com</h3>
                     <h3 style="margin-bottom: 0.5rem"><i class="fa-solid fa-phone" style="margin-right: 12px;"></i>6374673136</h3>
